@@ -238,4 +238,30 @@ body {
   text-decoration: line-through;
   color: var(--blue-light);
 }
+.leaf{
+  position: absolute;
+  top: -200px;
+  animation: move 8s linear infinite;
+  width: 150px;
+}
+@keyframes move{
+  0%{
+      transform: rotate(0deg) translateX(-100px);
+  }
+  100%{
+      transform: rotate(90deg) translateX(200vw);
+  }
+}
+.leaf1{
+  left: -10%;
+  animation-delay: 2s;
+}
+.leaf2{
+  left: 10%;
+  animation-delay: 4s;
+}
+.leaf3{
+  left: -40%;
+  animation-delay: 6s;
+}
 
